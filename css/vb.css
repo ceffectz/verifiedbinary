@@ -281,6 +281,35 @@ article {
     width: 24px;
     background-image: url('../img/redpadlock.png');
 }
+.faq-i1:before,
+.faq-i2:before,
+.faq-i3:before,
+.faq-i4:before,
+.faq-i5:before {
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    content: "";
+    display: block;
+    float: left;
+    vertical-align: -5px;
+    height: 20px;
+    width: 24px;
+}
+.faq-i1:before {
+    background-image: url('../img/1.png');
+}
+.faq-i2:before {
+    background-image: url('../img/2.png');
+}
+.faq-i3:before {
+    background-image: url('../img/3.png');
+}
+.faq-i4:before {
+    background-image: url('../img/4.png');
+}
+.faq-i5:before {
+    background-image: url('../img/5.png');
+}
 /*
 -----------------------------------------------------
                    MEMBERS
@@ -377,6 +406,23 @@ th {
 }
 /*
 -----------------------------------------------------
+                    FAQ
+-----------------------------------------------------
+*/
+
+.faq-bo-1 {
+    margin: 20px auto;
+}
+.faq-l {
+    margin-top: 30px;
+    //margin-bottom: -10px;
+
+}
+.faq-p {
+    margin-bottom: 20px;
+}
+/*
+-----------------------------------------------------
                     FOOTER
 -----------------------------------------------------
 */
@@ -455,7 +501,7 @@ footer {
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .abt {
-        margin:20px auto;
+        margin: 20px auto;
     }
     .table {
         margin-left: -15px;
